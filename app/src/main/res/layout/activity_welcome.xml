@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.n17.aizha.readydocs.WelcomeActivity"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/kz_tv"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:onClick="ToKz"
+            android:fontFamily="Arimo"
+            android:textSize="15sp"
+            android:text="@string/kz_tv"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/ru_tv"
+            android:padding="5dp"
+            android:onClick="ToRu"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:fontFamily="Arimo"
+            android:textSize="15sp"
+            android:text="@string/ru_tv"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/welcome_title"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Arimo"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="@string/welcom_title"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/frame"
+        android:layout_gravity="center_horizontal"
+        android:padding="0dp"/>
+
+    <TextView
+        android:id="@+id/welcome_tv"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="Arimo"
+        android:text="@string/welcome_tv"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        />
+    <Button
+        android:id="@+id/button_start"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_rectangle"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="Arimo"
+        android:textSize="15sp"
+        android:text="@string/start_tv"
+        android:onClick="StartNewPage"
+        />
+
+
+</LinearLayout>

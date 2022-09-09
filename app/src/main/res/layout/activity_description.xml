@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.n17.aizha.readydocs.DescriptionActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            >
+            <ImageView
+                android:id="@+id/logoImageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                 />
+
+            <TextView
+                android:id="@+id/organizationTextView"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="23dp"
+                android:paddingRight="4dp"
+                android:textColor="@color/TextColor"
+                android:textSize="20sp"
+                android:fontFamily="Arimo"
+                android:text="@string/text_of_description"/>
+        </LinearLayout>
+    <View
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/ViewColor"
+        android:layout_gravity="center"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/documents_tv"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="Arimo"
+            android:text="@string/documentsTextView"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+   />
+
+    </ScrollView>
+
+</LinearLayout>

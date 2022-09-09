@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ReadyDocs</string>
+    <string name="text_of_category">Taxation</string>
+    <string name="text_of_description">Organization of Republic of Kazakhstan</string>
+    <string name="documentsTextView">For that document you should come with : * ID card; * Medicine card; * Marriage passport; * ID card of chield;</string>
+    <string name="welcome_tv">Это приложение, которое предоставит вам список документов для самых часто обращаемых гос. услуг. Все запросы разделены на категории по государственным учреждениям. Каждый раз перед походом в ЦОН или подобные организации будьте готовы ко всему! </string>
+    <string name="welcom_title">Добро пожаловать в ReadyDocs!</string>
+    <string name="start_tv"><b>Начать</b></string>
+    <string name="kz_tv"><b>KZ</b></string>
+    <string name="ru_tv"><b>RU</b></string>
+    <string name="hint_search">Search</string>
+    <string name="search_title">Search</string>
+    <string name="share_title">Share</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="settings_title">Settings</string>
+    <string name="search_hint">Start to type!</string>
+    <string name="favorite_title">Favorite</string>
+</resources>
